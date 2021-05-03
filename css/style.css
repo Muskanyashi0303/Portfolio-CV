@@ -318,4 +318,22 @@ progress{
 .contact-right-col{
     flex-basis: 100%;
 }
+    .logo{
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    letter-spacing: 2px;
+}
+.menu{
+    margin-right: 70px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
 }
