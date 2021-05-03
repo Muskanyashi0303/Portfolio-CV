@@ -226,6 +226,7 @@ progress{
     header{
         background:url('../images/bg1.jpeg');
         background-size: cover;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
     .menu a{display: none;}
 
@@ -254,7 +255,7 @@ progress{
         
     }
     #p-title{
-        font-size: 45px;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
     }
@@ -270,7 +271,7 @@ progress{
         
     }
     .skills-left-col p{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         color: white;
         
@@ -296,7 +297,7 @@ progress{
 .services-box{
     flex-basis: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: 2px 3px 5px gray;
     padding: 30px;
     margin-top: 20px;
@@ -318,7 +319,7 @@ progress{
 .contact-right-col{
     flex-basis: 100%;
 }
-    .logo{
+.logo{
     color: white;
     font-size: 40px;
     padding-left: 100px;
@@ -335,5 +336,14 @@ progress{
     font-size: 20px;
     font-weight: bold;
    
+}
+.text h1{
+    font-size: 30px;
+    margin: 10px 0;
+    color: #4afff0;
+
+}
+.text p{
+    font-size: 20px;
 }
 }
